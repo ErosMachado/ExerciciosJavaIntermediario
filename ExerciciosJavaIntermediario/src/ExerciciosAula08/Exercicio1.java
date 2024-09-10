@@ -22,6 +22,8 @@ public class Exercicio1 {
 			}else {
 				System.out.println("Bom noite, "+nome+"!");
 			}
+			
+			
 				
 		scan.close();
 	}

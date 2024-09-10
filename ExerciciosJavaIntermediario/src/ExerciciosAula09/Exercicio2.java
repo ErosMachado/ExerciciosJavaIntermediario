@@ -11,6 +11,6 @@ public class Exercicio2 {
 		}
 		for (char letra: r) {
 		System.out.print(letra);
-		} // A saída impressa será "FIAPTOKIO", portanto a alternativa correta é a (b).
+		} // b
 	}
 }

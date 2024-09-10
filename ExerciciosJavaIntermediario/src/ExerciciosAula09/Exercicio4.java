@@ -21,10 +21,10 @@ public class Exercicio4 {
         for (int i = 0; i < n; i++) {
             System.out.print("Digite a nota do aluno " + (i + 1) + ": ");
             notas[i] = scanner.nextDouble();
-            soma += notas[i]; // Soma das notas para cálculo da média
+            soma += notas[i]; 
         }
         
-        // Cálculo da média
+      
         double media = soma / n;
         System.out.printf("A média da turma é: %.2f\n", media);
         
@@ -32,7 +32,7 @@ public class Exercicio4 {
         int abaixoDaMedia = 0;
         int igualAMedia = 0;
         
-        // Contagem de notas iguais, acima e abaixo da média
+      
         for (int i = 0; i < n; i++) {
             if (notas[i] > media) {
                 acimaDaMedia++;

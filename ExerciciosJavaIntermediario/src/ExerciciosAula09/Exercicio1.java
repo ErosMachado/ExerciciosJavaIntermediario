@@ -7,7 +7,7 @@ public class Exercicio1 {
 		v[v[2]] = v[v[1]];
 		for (int i: v){
 		System.out.print(i);
-		}//A saída impressa será "2 0 3 2", portanto a alternativa correta é a (a).
+		}
 
 	}
 
