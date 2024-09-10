@@ -1,10 +1,12 @@
 package ExerciciosAula10;
 
 public class Exercicio1 {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	
+	static void  msgErro() {
+		System.out.println("Essa é uma mensagem padronizada de erro. Cuidado com o que está fazendo!!"); 
 	}
-
+	
+	public static void main(String[] args) {
+		 msgErro();
+	}
 }

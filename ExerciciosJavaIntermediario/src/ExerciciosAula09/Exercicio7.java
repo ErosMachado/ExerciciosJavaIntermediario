@@ -6,7 +6,7 @@ public class Exercicio7 {
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("Digite um nome: ");
-		String nome = scan.nextLine();
+		//String nome = scan.nextLine();
 		
 		
 		
