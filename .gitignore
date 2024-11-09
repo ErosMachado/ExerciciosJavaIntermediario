@@ -1,1 +1,28 @@
-/bin/
+# Ignora arquivos e pastas do Eclipse
+.classpath
+.project
+.settings/
+
+# Ignora pastas de build
+bin/
+target/
+out/
+
+# Ignora arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignora arquivos de IDEs
+.idea/
+*.iml
+
+# Ignora dependências locais
+*.log
+
+# Ignora arquivos temporários do próprio Git
+*.swp
+*.swo
+
+# Ignora configurações pessoais
+.vscode/
+*.env
